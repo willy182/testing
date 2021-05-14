@@ -5,11 +5,11 @@ import (
 	"strings"
 )
 
-// Ula1 func count occurrences
+// GetNumberLetter func count occurrences
 // input = occurrences
 // output = o1c3u1r2e2n1s1
 // output must be lower case
-func Ula1(s string) string {
+func GetNumberLetter(s string) string {
 	var (
 		concat   string
 		res, tmp []string

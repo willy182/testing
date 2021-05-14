@@ -11,26 +11,26 @@ import (
 func main() {
 	// ula test hackerearth 1
 	str := "occurrences"
-	countOccurrences := ula.Ula1(str)
+	countOccurrences := ula.GetNumberLetter(str)
 	fmt.Println("countOccurrences", countOccurrences)
 	fmt.Println("============================ ula test hackerearth 1")
 
 	// ula test hackerearth 1
 	str = "CamelCase"
-	camelCase := ula.Ula2(str)
+	camelCase := ula.CamelToSnake(str)
 	fmt.Println("camelCase", camelCase)
 	fmt.Println("============================ ula test hackerearth 1")
 
 	// tiket test codility 1
 	x := []int{1, 2, 3, 1, 2}
 	y := []int{2, 4, 6, 5, 10}
-	fractions := tiketdotcom.TiketTest1(x, y)
+	fractions := tiketdotcom.Fractions(x, y)
 	fmt.Println("fractions", fractions)
 	fmt.Println("============================ tiket test codility 1")
 
 	// tiket test codility 2
 	inputan := []int{1, 3, 1, 2}
-	pohon := tiketdotcom.Solution(inputan)
+	pohon := tiketdotcom.Pohon(inputan)
 	fmt.Println("pohon", pohon)
 	fmt.Println("============================ tiket test codility 2")
 

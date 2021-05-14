@@ -6,8 +6,8 @@ import (
 	"unicode"
 )
 
-// Ula2 func CamelCase to snake_case
-func Ula2(s string) string {
+// CamelToSnake func CamelCase to snake_case
+func CamelToSnake(s string) string {
 	var res []string
 
 	for i, r := range s {

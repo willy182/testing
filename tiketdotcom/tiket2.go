@@ -1,7 +1,7 @@
 package tiketdotcom
 
-// Solution func
-func Solution(N []int) int {
+// Pohon func
+func Pohon(N []int) int {
 	totalN := len(N)
 	if totalN > 3 && totalN < 201 {
 		var res, j int
