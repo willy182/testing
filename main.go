@@ -35,7 +35,7 @@ func main() {
 	fmt.Println("============================ tiket test codility 2")
 
 	// ruang guru test live coding
-	nilaiPangkat := ruangguru.Pangkat(2, 2)
+	nilaiPangkat := ruangguru.Pangkat(2, 0)
 	fmt.Println("nilaiPangkat", nilaiPangkat)
 	fmt.Println("============================ ruang guru test live coding")
 

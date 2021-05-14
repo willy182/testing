@@ -3,11 +3,11 @@ package ruangguru
 import "math"
 
 // Pangkat function per pangkatan
-func Pangkat(val, n int) (result float64) {
-	nAbs := int(math.Abs(float64(n)))
+func Pangkat(val, pangkat int) (result float64) {
+	nAbs := int(math.Abs(float64(pangkat)))
 
 	var i int
-	if n <= 0 {
+	if pangkat <= 0 {
 		for i <= nAbs {
 			if i == 0 {
 				result = float64(val)
