@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/willy182/testing/garasidotid"
 	"github.com/willy182/testing/okadoc"
 	"github.com/willy182/testing/ruangguru"
 	"github.com/willy182/testing/tiketdotcom"
@@ -73,6 +74,19 @@ func main() {
 	fmt.Println("============================ okadoc testDome fillChannel")
 	fmt.Println("")
 
+	// garasi.id hacker rank Is Prime
+	var number int64 = 929
+	if garasidotid.IsPrimeByNative(number) == 1 {
+		fmt.Printf("%d is primes\n", number)
+	} else {
+		fmt.Printf("%d is not primes\n", number)
+	}
+	fmt.Println("============================ okadoc testDome findMaxSum")
+	fmt.Println("")
+
+	f := float64(5.2)
+	fmt.Println(f)
+	fmt.Println(int(f))
 	// testing time
 	// now := time.Now()
 	// now1 := now.AddDate(0, 0, 1)
