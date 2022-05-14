@@ -33,7 +33,7 @@ func IsPrimeBySemiNative(n int64) int32 {
 	return 1
 }
 
-// IsPrimeByNative1
+// IsPrimeByNative
 // if n = prime return 1
 // if n = not prime return 2
 func IsPrimeByNative(n int64) int32 {

@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/willy182/testing/alami"
 	"github.com/willy182/testing/garasidotid"
 	"github.com/willy182/testing/okadoc"
 	"github.com/willy182/testing/ruangguru"
@@ -57,7 +58,7 @@ func main() {
 
 	// okadoc testDome findMaxSum
 	list := []int{5, 9, 7, 11}
-	fmt.Println(okadoc.FindMaxSum(list))
+	fmt.Println(list, okadoc.FindMaxSum(list))
 	fmt.Println("============================ okadoc testDome findMaxSum")
 	fmt.Println("")
 
@@ -81,9 +82,23 @@ func main() {
 	} else {
 		fmt.Printf("%d is not primes\n", number)
 	}
-	fmt.Println("============================ okadoc testDome findMaxSum")
+	fmt.Println("============================ garasi hackerank IsPrime")
 	fmt.Println("")
 
+	// alami
+	inputFactorial := 5
+	factorial := alami.Factorial(inputFactorial)
+	fmt.Printf("Factorial %d = %d \n", inputFactorial, factorial)
+	fmt.Println("============================ alami Factorial")
+	fmt.Println("")
+
+	numericReverse := 5793
+	numReverse := alami.NumericReverse(numericReverse)
+	fmt.Printf("Factorial %d = %d \n", numericReverse, numReverse)
+	fmt.Println("============================ alami NumericReverse")
+	fmt.Println("")
+
+	fmt.Println("============================ testing")
 	f := float64(5.2)
 	fmt.Println(f)
 	fmt.Println(int(f))
