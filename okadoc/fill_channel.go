@@ -2,6 +2,7 @@ package okadoc
 
 import "sync"
 
+// FillChannel func
 func FillChannel(functions ...func() int) chan int {
 	var wg sync.WaitGroup
 	var intChan = make(chan int)

@@ -44,7 +44,7 @@ func main() {
 	fmt.Println("")
 
 	// tiket test codility 2
-	inputan := []int{1, 3, 1, 2}
+	inputan := []int{5, 3, 1, 2}
 	pohon := tiketdotcom.Pohon(inputan)
 	fmt.Println("pohon", pohon)
 	fmt.Println("============================ tiket test codility 2")
