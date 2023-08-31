@@ -7,6 +7,7 @@ import (
 	"github.com/willy182/testing/garasidotid"
 	"github.com/willy182/testing/okadoc"
 	"github.com/willy182/testing/ruangguru"
+	"github.com/willy182/testing/somethinc"
 	"github.com/willy182/testing/tiketdotcom"
 	"github.com/willy182/testing/ula"
 )
@@ -96,6 +97,11 @@ func main() {
 	numReverse := alami.NumericReverse(numericReverse)
 	fmt.Printf("Factorial %d = %d \n", numericReverse, numReverse)
 	fmt.Println("============================ alami NumericReverse")
+	fmt.Println("")
+
+	dataSomethinc := somethinc.Fractions(284000, []int{100000, 50000, 20000, 10000, 5000, 2000, 1000, 500, 200, 100})
+	fmt.Println(string(dataSomethinc))
+	fmt.Println("============================ somethinc Fractions")
 	fmt.Println("")
 
 	fmt.Println("============================ testing")
